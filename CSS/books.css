@@ -1,0 +1,82 @@
+body {
+    background: url(../photos/shelves.jpg) repeat-y;
+    background-size: 1540px 1200px;
+
+}
+
+header h1 {
+    margin-top: 50px;
+    text-align: center;
+    color: #9db8e4;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #6b9be8;
+    color: black;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.books {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.bookBlocks {
+    background-color: #6b9be8;
+    border: 3px solid #2656a3;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.bookBlocks h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.bookBlocks p {
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: black;
+}
+
+.bookBlocks button {
+    padding: 10px 15px;
+    margin-top: 10px;
+    background-color: #007BFF;
+    color: black;
+    border: none;
+    border-radius: 5px;
+}
+
+.bookBlocks button:hover {
+    background-color: #0056b3;
+
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #9db8e4;
+}
+.messages{
+    text-align: center;
+    padding: 20px;
+    color: #9db8e4;
+}

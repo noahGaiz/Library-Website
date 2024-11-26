@@ -1,0 +1,149 @@
+header h1{
+    margin-top: 50px;
+    text-align: center;
+    color: #9db8e4;
+
+}
+footer p{
+    text-align: center;
+    color: #9db8e4;
+}
+.main{
+    margin: auto;
+    margin-top: 150px;
+    width: 30%;
+    border: 5px solid #2656a3;
+    padding: 10px;
+    border-radius: 15px; 
+    background-color: #6b9be8;
+}
+.login {
+    margin: auto;
+    margin-top: 150px;
+    width: 30%;
+    border: 5px solid #2656a3;
+    padding: 10px;
+    border-radius: 15px; 
+    background-color: #6b9be8;
+}
+
+.login input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #2656a3;
+    border-radius: 4px;
+}
+.login input[type=password] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #2656a3;
+    border-radius: 4px;
+}
+
+.registering {
+    margin: auto;
+    margin-top: 50px;
+    width: 30%;
+    border: 5px solid #2656a3;
+    padding: 10px;
+    border-radius: 15px; 
+    background-color: #6b9be8;
+}
+
+.registering input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #2656a3;
+    border-radius: 4px;
+}
+.registering input[type=password] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #2656a3;
+    border-radius: 4px;
+}
+.registering input[type=tel] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #2656a3;
+    border-radius: 4px;
+}
+body{
+    
+    background: url(../photos/shelves.jpg);
+    background-size: 1540px 1200px;
+    background-repeat: no-repeat;
+    
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+td {
+    background-color: #6b9be8;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #2656a3;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+button {
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+.login-success {
+    color: white;
+    background-color: #6b9be8;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.login-failure{
+    color: black;
+    background-color: #6b9be8;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #6b9be8;
+}
+
+nav ul li {
+    float: left;
+}
+
+ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
